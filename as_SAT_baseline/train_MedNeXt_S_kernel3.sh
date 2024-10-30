@@ -1,0 +1,1 @@
+srun1g mednextv1_train 3d_fullres nnUNetTrainerV2_MedNeXt_S_kernel3 Task016_BTCV all -p nnUNetPlansv2.1_trgSp_1x1x1

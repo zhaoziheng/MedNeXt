@@ -315,7 +315,7 @@ class nnUNetTrainer(NetworkTrainer):
 
     def run_training(self):
         self.save_debug_information()
-        super(nnUNetTrainer, self).run_training()
+        super(nnUNetTrainer, self).run_training(self.plans)
 
     def load_plans_file(self):
         """
